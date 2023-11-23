@@ -1,0 +1,84 @@
+.Rest-foodProduct {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px;
+    margin-top: 2rem;
+    grid-gap: 46px;
+    background-color: antiquewhite;
+}
+.Rest-foodProduct-cart {
+    width: 250px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 2px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: all .5s linear;
+}
+.Rest-foodProduct-cart:hover{
+    box-shadow: 0 0 15px 5px #b72d2d;
+    border: none;
+}
+.Rest-foodProduct-cart img {
+    width: auto;
+    height: 130px;
+    border-radius: 5px;
+    cursor: grab;
+    transition: all 0.5 ease-in-out;
+}
+.Rest-foodProduct-cart img:hover{
+    scale: 1.1;
+}
+.Rest-foodProduct-cartprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.Rest-foodProduct-cartprice h2{
+    color: #b72d2d;
+}
+.Rest-foodProduct-cartprice span {
+    color: green;
+    font-weight: 600;
+}
+p.Rest-foodProduct-cartdes {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: auto;
+    /* color: #d72b2b; */
+}
+.Rest-foodProduct-cartrat {
+    display: flex;
+    justify-content: space-between;
+}
+.Rest-foodProduct-cartrat  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+svg.Rest-foodProduct-cartstar {
+    color: yellow;
+    margin-right: 2px;
+}
+.Rest-foodProduct-cartrat button {
+    padding: 5px;
+    color: white;
+    background-color: #b72d2d;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: emoji;
+    font-weight: 500;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+.Rest-foodProduct-cartrat button:hover{
+    background-color: green;
+    color: white;
+}

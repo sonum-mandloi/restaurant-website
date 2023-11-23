@@ -1,0 +1,109 @@
+.addtocart-rest-block {
+     /* border: 1px solid black; */
+     width: 280px;
+     height: fit-content;
+     /* min-height: 300px; */
+     position: absolute;
+     top: 55px;
+     right: 0px;
+     background-color: #b72d2d;
+     display: block;
+     transition:all 0.5s linear ;
+     color: white;
+     padding: 20px;
+     z-index: 10;
+}
+.addtocart-rest-cart {
+    /* border: 1px solid darkblue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.addtocart-rest-none{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}
+.addtocart-rest-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+svg.addtocart-rest-close {
+    border: 1px solid white;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.addtocart-rest-amount {
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    bottom: 20px;
+}
+.addtocart-rest-amount button.btn.btn-primary {
+    padding: 7px;
+    width: 278px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.addtocart-rest-amount button.btn.btn-primary:hover{
+    background-color: green;
+    box-shadow: 0px 0px 10px white;
+    color: white;
+
+}
+.addtocart-rest-smallcart {
+    display: flex;
+    box-shadow: 0px 0px 10px white;
+    padding: 5px;
+    width: 283px;
+    height: 80px;
+    align-items: center;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.addtocart-rest-smallcart img {
+    width: 60px;
+    height: 65px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.addtocart-rest-addcart {
+    /* border: 1px solid green; */
+    height: 75px;
+    width: 210px;
+}
+.addtocart-rest-addcart-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    height: 23px;
+}
+svg.addtocart-rest-delete {
+    font-size: 22px;
+}
+.addtocart-rest-addcart-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addtocart-rest-addcart-price  button.btn.btn-primary {
+    padding: 4px;
+    height: 30px;
+}
+.addtocart-rest-addcart-priceqty {
+    display: flex;
+    align-items: center;
+}
+.addtocart-rest-addcart-priceqty h3 {
+    /* display: flex; */
+    width: 40px;
+    text-align: center;
+}
