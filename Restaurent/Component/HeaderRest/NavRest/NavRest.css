@@ -1,0 +1,111 @@
+.Rest-Header.nav {
+    /* border: 1px solid  black; */
+    width: 83.4rem;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+    background-color: #fff6ec;
+    z-index: 1000;
+}
+.Rest-Header-logo {
+    display: flex;
+    width: 120px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items:center;
+}
+.Rest-Header-logo img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+}
+.Rest-Header-logo h3 {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-family: cursive;
+}
+.Rest-Header-logo h3 span {
+    color: #d72b2b;
+    font-family: monospace;
+}
+.Rest-Header.nav ul {
+    display: flex;
+    list-style: none;
+}
+.Rest-Header.nav ul li {
+    padding-inline: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: math;
+    /* border: 1px solid green; */
+    padding: 16px;
+    transition: all 0.5s linear;
+
+}
+.Rest-Header.nav ul li:hover{
+    background-color:  #b23333;
+    color: white;
+}
+.Rest-Header-login {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 200px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-around;
+}
+.Rest-Header-login span {
+    font-size: 20px;
+    color: #d72b2b;
+}
+.Rest-Header-login button.btn.btn-primary {
+    padding: 5px;
+    font-size: 15px;
+    margin-inline-start: 15px;
+    border-radius: 5px;
+    border-color: #d72b2b;
+    /*color: #d72b2b;
+    */font-weight: 600;
+    transition: all 0.5s linear;
+}
+.Rest-Header-login button.btn.btn-primary:hover{
+    background-color: #b23333;
+    color: white;
+    border: none;
+}
+svg.Rest-Header-shoppaingCart {
+    /* border: 1px solid; */
+    width: 25px;
+}
+.Rest-Header-login span {
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+}
+.Rest-Header-cartani {
+    color: #ff0000;
+    position: absolute;
+    right: 2px;
+    bottom: -10px;
+    animation: qty 2s linear infinite;
+    transition: all 0.5s linear;
+    display: block;
+    /* border: 1px solid; */
+    text-align: center;
+    width: 21px;
+}
+@keyframes qty {
+    0%{
+        transform: translateY(-8px);
+}
+    100%{
+        transform: translateY(0);
+}
+    
+}
+.Rest-Header-cartani-none{
+    display: none;
+}
